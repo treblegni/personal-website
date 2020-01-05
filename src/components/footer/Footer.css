@@ -1,0 +1,9 @@
+.footer-container {
+	position: absolute;
+	z-index: 0;
+	width: 100vw;
+	height: 22vh;
+	top: 100vh;
+	background-color: #223657;
+	color: white;
+}

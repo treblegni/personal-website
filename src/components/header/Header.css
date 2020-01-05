@@ -1,0 +1,8 @@
+.header-container {
+	position: fixed;
+	z-index: 1;
+	width: 100vw;
+	height: 22vh;
+	background-color: #798DBC;
+	color: white;
+}
