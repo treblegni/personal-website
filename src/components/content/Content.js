@@ -6,6 +6,7 @@ export default class Content extends React.Component {
 		return (
 			<div className='content-container'>
 				This is the Content!
+				{this.props.children}
 			</div>
 		)
 	}
