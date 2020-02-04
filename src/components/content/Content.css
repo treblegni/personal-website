@@ -1,5 +1,6 @@
 .content-container {
 	position: absolute;
+	display: inline-block;
 	z-index: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
