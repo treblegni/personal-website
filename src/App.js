@@ -3,7 +3,8 @@ import React from 'react';
 // import Content from './components/content/Content'
 // import Footer from './components/footer/Footer'
 
-import ConstructionPage from './components/construction/ConstructionPage';
+import DevHeader from './components/dev-header/dev-header';
+import DevContent from './components/dev-content/dev-content'
 
 import './App.css';
 
@@ -15,7 +16,8 @@ export default class App extends React.Component {
 				<Content>
 				</Content>
 				<Footer/>*/}
-				<ConstructionPage></ConstructionPage>
+				<DevHeader/>
+				<DevContent/>
     		</div>
 		)
 	}

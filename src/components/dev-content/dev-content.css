@@ -1,0 +1,11 @@
+.dev-content-container {
+    display: grid;
+    background-color: #5086B9;
+    width: inherit;
+    height: 100%;
+}
+.dev-computer {
+    width: 38.5rem;
+    height: 24.6rem;
+    background-image: url("./mon.svg");
+}

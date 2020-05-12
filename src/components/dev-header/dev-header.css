@@ -1,0 +1,28 @@
+.dev-header-container {
+    display: flex;
+    width: inherit;
+    height: 10.25rem;
+    background-color: #7EAED7;
+}
+
+.dev-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11.6rem;
+    height: inherit;
+    background-image: url("./logo-medium-white.svg");
+    background-color: red;
+}
+
+.dev-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 600px;
+    height: inherit;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 4rem;
+    color: white;
+}
