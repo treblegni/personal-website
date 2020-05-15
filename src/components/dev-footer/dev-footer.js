@@ -9,10 +9,14 @@ export default class DevFooter extends React.Component {
         return (
             <div className='dev-footer-container'>
                 <div className='dev-social-media-container'>
-                    <img className='dev-social-media' src={GitHub}/>
+                    <a href='https://github.com/treblegni'>
+                        <img className='dev-social-media' src={GitHub}/>
+                    </a>
                 </div>
                 <div className='dev-social-media-container'>
-                    <img className='dev-social-media' src={LinkedIn}/>
+                    <a href='https://www.linkedin.com/in/ingelbert-figueroa-b75299182/'>
+                        <img className='dev-social-media' src={LinkedIn}/>
+                    </a>
                 </div>
             </div>
         )
