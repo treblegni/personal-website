@@ -1,28 +1,52 @@
+@media only screen and (max-width: 414px) and (max-height: 896px) {
+    .dev-logo-container {
+        margin-left: 2rem !important;
+        /* background-color: red; */
+    }
+
+    .dev-title-container {
+        width: 20rem !important;
+        font-size: 2rem !important;
+    }
+    
+    .dev-title-container span {
+        position: absolute;
+        top: 2rem !important;
+    }
+}
+
 .dev-header-container {
-    display: flex;
-    width: inherit;
-    height: 10.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 10rem;
     background-color: #7EAED7;
 }
 
 .dev-logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 11.6rem;
-    height: inherit;
-    background-image: url("./logo-medium-white.svg");
-    background-color: red;
+    margin-left: 8rem;
+    padding: 1.5rem;
+    /* background-color: red; */
 }
 
-.dev-title {
+.dev-logo {
+    /* margin-top: -1rem; */
+    width: 7rem;
+    height: auto;
+}
+
+.dev-title-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
-    width: 600px;
+    width: 41rem;
     height: inherit;
+    margin-left: 4rem;
     font-family: 'Julius Sans One', sans-serif;
-    font-size: 4rem;
+    font-size: 3.4rem;
     color: white;
+}
+
+.dev-title-container span {
+    position: absolute;
+    top: 6rem;
 }

@@ -4,8 +4,8 @@ import React from 'react';
 // import Footer from './components/footer/Footer'
 
 import DevHeader from './components/dev-header/dev-header';
-import DevContent from './components/dev-content/dev-content'
-
+import DevBody from './components/dev-body/dev-body'
+import DevFooter from './components/dev-footer/dev-footer'
 import './App.css';
 
 export default class App extends React.Component {
@@ -17,7 +17,8 @@ export default class App extends React.Component {
 				</Content>
 				<Footer/>*/}
 				<DevHeader/>
-				<DevContent/>
+				<DevBody/>
+				<DevFooter/>
     		</div>
 		)
 	}
