@@ -1,4 +1,4 @@
-@media only screen and (max-height: 400px){
+@media only screen and (max-height: 450px){
     .dev-image-container {
         display:none !important;
     }

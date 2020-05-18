@@ -1,3 +1,25 @@
+@media only screen and (max-height: 160px){
+    .dev-header-container {
+        display:none !important;
+    }
+
+    .dev-logo-container {
+        display:none !important;
+    }
+    
+    .dev-logo {
+        display:none !important;
+    }
+
+    .dev-title-container {
+        display:none !important;
+    }
+
+    .dev-title-container span {
+       display:none !important;
+    }
+}
+
 @media screen and (max-width: 630px) {
     .dev-logo {
         display: none !important;

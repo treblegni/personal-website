@@ -1,3 +1,9 @@
+@media only screen and (max-height: 500px) {
+    .dev-footer-container {
+        display: none !important;
+    }
+}
+
 .dev-footer-container {
     position: absolute;
     bottom: 0;
