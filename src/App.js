@@ -9,13 +9,13 @@ import DevFooter from './components/dev-footer/dev-footer'
 import './App.css';
 
 export default class App extends React.Component {
+	state = {
+		windwoHeight: window.innerHeight,
+		windowWidth: window.innerWidth
+	}
 	render() {
 		return (
 			<div className="App">
-				{/*<Header/>
-				<Content>
-				</Content>
-				<Footer/>*/}
 				<DevHeader/>
 				<DevBody/>
 				<DevFooter/>

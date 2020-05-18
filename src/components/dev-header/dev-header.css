@@ -1,17 +1,49 @@
-@media screen and (max-width: 414px) and (max-height: 896px) {
+@media screen and (max-width: 630px) {
+    .dev-logo {
+        display: none !important;
+        margin: none !important;
+        transition: 0.3s;
+    }
+    .dev-title-container {
+        width: 24.4rem !important;
+        right: 0 !important;
+    }
+    .dev-title-container span {
+        position: absolute;
+        font-size: 3rem !important;
+        top: 6rem;
+        transition: 0.3s;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .dev-header-container {
+        display: flex !important;
+        /* height: 10rem; */
+        background-color: #7EAED7;
+    }
+
     .dev-logo-container {
-        margin-left: 2rem !important;
-        /* background-color: red; */
+        /* display: flex !important; */
+        height: inherit;
+        margin-left: 7rem !important;
+        margin-right: 0 !important;
+        transition: 0.3s;
     }
 
     .dev-title-container {
-        width: 20rem !important;
-        font-size: 2rem !important;
+        position: absolute;
+        margin-left: 0 !important;
+        width: 22.4rem !important;
+        font-size: 3rem !important;
+        right: 2rem;
     }
     
     .dev-title-container span {
-        position: absolute;
-        top: 2rem !important;
+        top: 2.75rem !important;
+    }
+    .dev-logo {
+        transition: 0.3s;
     }
 }
 
@@ -23,13 +55,14 @@
 }
 
 .dev-logo-container {
-    margin-left: 8rem;
-    padding: 1.5rem;
-    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 7rem;
+    height: inherit;
 }
 
 .dev-logo {
-    /* margin-top: -1rem; */
+    margin-top: -1rem;
     width: 7rem;
     height: auto;
 }
@@ -41,12 +74,14 @@
     width: 41rem;
     height: inherit;
     margin-left: 4rem;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 3.4rem;
-    color: white;
+    transition: 0.3s;
 }
 
 .dev-title-container span {
     position: absolute;
     top: 6rem;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 3rem;
+    transition: 0.3s;
 }

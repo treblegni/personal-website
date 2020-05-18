@@ -1,16 +1,16 @@
 .dev-footer-container {
     position: absolute;
-    display: flex;
-    width: auto;
-    height: 10rem;
     bottom: 0;
-    left: 42vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 17vh;
 }
 
 .dev-social-media-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-right: 2vw;
     margin-left: 2vw;
 }

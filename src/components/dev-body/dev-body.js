@@ -11,7 +11,7 @@ export default class DevContent extends React.Component {
                     <img className='dev-image' src={CompImage} alt='computer image'/>
                 </div>
                 <div className='dev-text-container'>
-                    This site is under development and will be available shortly. Your patience is greatly appreciated.
+                    <span>This site is under development and will be available shortly. Your patience is greatly appreciated.</span>
                 </div>
             </div>
         )
